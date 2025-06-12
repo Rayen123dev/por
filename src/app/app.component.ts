@@ -97,7 +97,7 @@ export class AppComponent implements AfterViewInit {
       trailWidth: 4,
       svgStyle: {width: '100%', height: '10px'}
     });
-    line1.animate(1.0); // 100% for HTML
+    line1.animate(0.7); // 100% for HTML
 
     const line2 = new ProgressBar.Line('#lineprog2', {
       strokeWidth: 4,
@@ -106,7 +106,7 @@ export class AppComponent implements AfterViewInit {
       trailWidth: 4,
       svgStyle: {width: '100%', height: '10px'}
     });
-    line2.animate(0.9); // 90% for CSS
+    line2.animate(0.7); // 90% for CSS
 
     const line3 = new ProgressBar.Line('#lineprog3', {
       strokeWidth: 4,
@@ -115,7 +115,7 @@ export class AppComponent implements AfterViewInit {
       trailWidth: 4,
       svgStyle: {width: '100%', height: '10px'}
     });
-    line3.animate(0.85); // 85% for JS
+    line3.animate(0.8); // 85% for JS
 
     const line4 = new ProgressBar.Line('#lineprog4', {
       strokeWidth: 4,
@@ -124,7 +124,7 @@ export class AppComponent implements AfterViewInit {
       trailWidth: 4,
       svgStyle: {width: '100%', height: '10px'}
     });
-    line4.animate(0.75); // 75% for PHP
+    line4.animate(0.9); // 75% for PHP
 
     const line5 = new ProgressBar.Line('#lineprog5', {
       strokeWidth: 4,
@@ -133,7 +133,7 @@ export class AppComponent implements AfterViewInit {
       trailWidth: 4,
       svgStyle: {width: '100%', height: '10px'}
     });
-    line5.animate(0.6);
+    line5.animate(0.9);
   }
   title = 'rpor';
 }
