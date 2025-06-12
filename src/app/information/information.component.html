@@ -1,14 +1,15 @@
-<div class="art-info-bar">
+<div class="art-info-bar" [class.art-active]="sidebarOpen">
 
   <!-- menu bar frame -->
   <div class="art-info-bar-frame">
 
     <!-- info bar header -->
     <div class="art-info-bar-header">
-      <div class="art-info-bar-btn">
-        <i class="fas fa-ellipsis-v"></i>
-      </div>
-    </div>
+  <div class="art-info-bar-btn" (click)="toggleSidebar()">
+    <i class="fas fa-ellipsis-v"></i>
+  </div>
+</div>
+
 
     <!-- info bar header end -->
     <div class="art-header">
